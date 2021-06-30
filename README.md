@@ -1,3 +1,7 @@
+### Project Description
+The goal is to gather market research on how to bridge the gap between medical suppliers and hospitals. 
+
+
 ###  Wireframes 
 **Landing Page**
 :-------------------------:
