@@ -801,6 +801,47 @@ span.image.icon {
 /****************************************************/
 
 
+/* Icons */
+
+ul.icons {
+    cursor: default;
+}
+
+ul.icons li {
+    display: inline-block;
+    font-size: 1.25em;
+    line-height: 1em;
+    padding-left: 0.5em;
+}
+
+ul.icons li:first-child {
+    padding-left: 0;
+}
+
+ul.icons li a,
+ul.icons li span {
+    -moz-transition: background-color 0.2s ease-in-out;
+    -webkit-transition: background-color 0.2s ease-in-out;
+    -ms-transition: background-color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out;
+    border-radius: 100%;
+    border: solid 1px rgba(224, 224, 224, 0.75);
+    display: inline-block;
+    height: 2em;
+    line-height: 2em;
+    text-align: center;
+    width: 2em;
+}
+
+ul.icons li a:hover,
+ul.icons li span:hover {
+    background: rgba(224, 224, 224, 0.15);
+}
+
+
+/****************************************************/
+
+
 /* List */
 
 ol.default {

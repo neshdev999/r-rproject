@@ -8,4 +8,14 @@ function handleFormSubmit() {
     });
 }
 
+/* Copyright Year */
+
+function getCopyRightCurrentYear() {
+    var today = new Date();
+    var year = today.getFullYear();
+    return year;
+}
+
+document.getElementById("copyRightYear").innerHTML = getCopyRightCurrentYear();
+
 $(handleFormSubmit);
